@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	margin: 0 60px 10px
 }
 ol, ul {
 	list-style: none;
@@ -49,10 +50,12 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid black;
 	margin:0 auto;
 	padding: 0px;
 	max-width: 100%;
+}
+hr{
+	margin: 5% 0;
 }
 
 html, body {
@@ -65,14 +68,20 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-nav{
+nav {
 	text-align:center;
+}
+header {
+	margin: 5% 0;
+}
+.top-content{
+	margin: 5% 0;
 }
 .links{
 	text-decoration:none;
 	display:inline-block;
 	width: 55%;
-	word-spacing: 60px;
+	word-spacing: 40px;
 	vertical-align: top;
 	padding-top:8px;
 }
@@ -88,13 +97,17 @@ nav{
 	margin:0 auto;
 	padding:10px 0;
 }
+.words p{
+	border: 1px solid black;
+	padding: 0 1%;
+	width: 25%;
+}
 .words h1{
 	font-size: 82px;
 }
 .circle-img{
 	display:inline-block;
 	width: 27%;
-	
 }
 .features{
 	display:inline-block;
@@ -105,8 +118,21 @@ nav{
 	width: 48%;
 }
 .middle-img{
-	display:inline-block;
 	text-align:center;
+	margin: 5% 8%;
 }
-
+.bottom-content{
+	margin: 5% 0;
+}
+.services{
+	display:inline-block;
+	width:33%
+}
+.contact{
+	margin-bottom:50px;
+}
+footer{
+	text-align:center;
+	margin-bottom: 50px;
+}
 /* Your code starts here! */
