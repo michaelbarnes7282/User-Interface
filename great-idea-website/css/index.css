@@ -108,6 +108,7 @@ header {
 .circle-img{
 	display:inline-block;
 	width: 27%;
+	text-align:center;
 }
 .features{
 	display:inline-block;
